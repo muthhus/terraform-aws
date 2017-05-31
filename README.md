@@ -4,10 +4,14 @@ Iaas using Terraform(0.9.40), AWS(S3, EC2 & CloudWatchLog), PostgreSQL, Docker a
 Terraform Commands:
 
 $ terraform -version
-$ terraform apply
+$ terraform apply - Applies changes to our infrastructure
 $ terraform show
-$ terraform plan
-$ terraform destroy
+$ terraform plan - Shows us what changes Terraform will make to our infrastrucuture
+$ terraform destroy - Destroys infrastructure built with Terraform
+
+To see the terraform command options:
+$ terraform help
+
 
 Using AWS on the command line:
 
